@@ -1,16 +1,21 @@
 @echo off
-echo 1 -> Hello World
+echo 1_Hello World
+pause
 
-echo 2 -> Lista las cosas en el directorio
+echo 2_Lista las cosas en el directorio
 dir
+pause
 
-echo 3 -> Creando el directorio Test
+echo 3_Creando el directorio Test
 mkdir Test
+pause
 
-echo 4 -> Nos cambiamos al subdirectorio creado
+echo 4_Nos cambiamos al subdirectorio creado
 cd Test
+pause
 
-echo 5 ->  Listando las cosas en el subdirectorio
+echo 5_Listando las cosas en el subdirectorio
 dir
+pause
 
 echo Batch script terminado
