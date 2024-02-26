@@ -1,0 +1,16 @@
+@echo off
+echo 1 -> Hello World
+
+echo 2 -> Lista las cosas en el directorio
+dir
+
+echo 3 -> Creando el directorio Test
+mkdir Test
+
+echo 4 -> Nos cambiamos al subdirectorio creado
+cd Test
+
+echo 5 ->  Listando las cosas en el subdirectorio
+dir
+
+echo Batch script terminado
